@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tennis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Table Tennis score Keeper</h1>
+        <img src="TableTennis.jpg" alt="pic of table tennis">
+        <p id="points"> <span id="play1Points">0</span> to <span id="play2Points">0</span></p>
+        <p class="para">Use the buttons to increase the score</p>
+        <label for="selectedValue">Choose an option:</label>
+        <select id="selectedValue" name="options">
+            <option value="5">5</option>
+            <option value="11">11</option>
+            <option value="21">21</option>
+        </select>
+        <div id="subContainer">
+            <button class="btn" id="green" type="button">+1 Player 1</button>
+            <button class="btn" id="blue" type="button">+1 Player 2</button>
+            <button class="btn" id="red" type="button">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

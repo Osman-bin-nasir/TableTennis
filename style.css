@@ -1,0 +1,77 @@
+body{
+    color: white;
+    background-color: rgb(30, 29, 29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    /* display: inline; */
+    text-align: center;
+}
+img{
+    display: block;
+    height: 250px;
+    width: 450px;
+}
+#subContainer{
+    margin: 10px 10px 0 10px;
+}
+label{
+    margin: 10px 10px 0 10px;
+}
+option{
+    border-radius: 50px;
+}
+select{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(67, 67, 67);;
+    padding: 3px;
+}
+.btn{
+    font-size: 1.1em;
+    padding: 10px; 
+    /* height: 2.5em; */
+    width: 8em;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+#green{
+    background-color: rgb(100, 216, 148);
+}
+#blue{
+    background-color: rgb(49,190,252);
+}
+#red{
+    background-color: rgb(227, 71, 113);
+}
+#container{
+    border: 1px solid white;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(82, 82, 82);
+    box-shadow: 0 0 15px 5px rgba(197, 197, 197, 0.6);
+}
+#points{
+    font-size: 2em;
+    margin: 10px 10px 0 10px;
+}
+.para{
+    margin:0 0 0 10px ;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.disabled{
+    cursor: not-allowed; 
+    opacity: 0.5; 
+}
+.disabled:hover{
+    cursor: not-allowed;
+    opacity: 0.5; 
+}
